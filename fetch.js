@@ -18,7 +18,8 @@
 fetch("https://jsonplaceholder.typicode.com/todos")
   .then((response) => response.json())
   .then((getData) => {
-    console.log(getData);
+    // console.log(getData);
+    let q = getData;
   });
 
 var tbl = document.createElement("table");
